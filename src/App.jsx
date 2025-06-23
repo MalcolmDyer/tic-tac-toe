@@ -6,6 +6,7 @@ export default function App() {
     <div className="app">
       <h1>Tic Tac Toe</h1>
       <Board />
+      <button class="reset_button">Reset</button>
     </div>
   );
 }

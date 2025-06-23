@@ -1,6 +1,9 @@
 .app {
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .board-row {
@@ -14,4 +17,9 @@
   font-size: 24px;
   cursor: pointer;
   background-color: rgb(159, 205, 246);
+  border-radius: 10%;
+}
+
+.reset_button {
+  margin: 50px;
 }
